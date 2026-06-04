@@ -1,16 +1,14 @@
 # 🧠 Applied AI Engineer — Complete Free Course
 
 > **The only repository you need** to go from zero to building custom AI systems for real companies.
-> 
+
 > Learn how to take GPT-4, Claude, Llama — and turn them into specialized AI products that companies actually pay for.
 
----
 
 *[English](README.md) · [తెలుగు](README-te.md) · [हिन्दी](README-hi.md) · [தமிழ்](README-ta.md) · [বাংলা](README-bn.md) | [Add Translation](https://github.com/sisi-tarak/applied-ai-engineer/issues/new?title=Translation+Request)*
 
 **Help [translate](TRANSLATIONS.md) this guide!**
 
----
 
 <div align="center">
 
@@ -24,7 +22,7 @@
 
 </div>
 
----
+<br/>
 
 ## 🎯 What Is an Applied AI Engineer?
 
