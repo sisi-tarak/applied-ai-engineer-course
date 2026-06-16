@@ -5,7 +5,7 @@
 
 **[← Back to Main](../../README.md)**
 
----
+<br/>
 
 ## What This Project Demonstrates
 
@@ -27,7 +27,7 @@ WHAT TO SAY IN INTERVIEWS:
    score on our eval set. Deployed via Docker and FastAPI."
 ```
 
----
+<br/>
 
 ## Architecture
 
@@ -68,7 +68,7 @@ WHAT TO SAY IN INTERVIEWS:
 └──────────────────────────────────────────────────────────┘
 ```
 
----
+<br/>
 
 ## File Structure
 
@@ -98,7 +98,7 @@ project-01-company-chatbot/
     └── test_api.py
 ```
 
----
+<br/>
 
 ## Complete Implementation
 
@@ -140,7 +140,7 @@ class Config:
 config = Config()
 ```
 
----
+<br/>
 
 ### `src/rag_engine.py`
 
@@ -341,7 +341,7 @@ Context:
         }
 ```
 
----
+<br/>
 
 ### `src/api.py`
 
@@ -439,7 +439,7 @@ def get_stats():
     return engine.get_stats()
 ```
 
----
+<br/>
 
 ### `app.py` — Streamlit Chat UI
 
@@ -549,7 +549,7 @@ if question := st.chat_input("Ask a question..."):
             st.error(f"Error: {response.text}")
 ```
 
----
+<br/>
 
 ### `Dockerfile`
 
@@ -573,7 +573,7 @@ EXPOSE 8000 8501
 CMD ["sh", "-c", "uvicorn src.api:app --host 0.0.0.0 --port 8000 & streamlit run app.py --server.port 8501 --server.address 0.0.0.0"]
 ```
 
----
+<br/>
 
 ## How to Run
 
@@ -600,7 +600,7 @@ streamlit run app.py
 docker-compose up
 ```
 
----
+<br/>
 
 ## Evaluation
 
@@ -609,6 +609,6 @@ docker-compose up
 python evaluate.py --test-file sample_docs/eval_questions.json
 ```
 
----
+<br/>
 
 **[← Back to Main](../../README.md) | [Next: Project 2 →](../project-02-document-intelligence/README.md)**
