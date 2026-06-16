@@ -56,7 +56,7 @@ Your fee: ₹8L for building it. ₹3L/year for maintenance.
 
 This is what Applied AI Engineers do. This course teaches exactly that.
 
----
+
 
 ## 🔥 Why This Course Exists
 
@@ -68,7 +68,7 @@ This repository organises everything in one place:
 - **Community built.** Pull requests welcome — your experience makes this better for everyone.
 - **Job-focused.** Every module maps to a real skill companies hire for.
 
----
+
 
 ## 📊 What Companies Actually Hire For
 
@@ -90,7 +90,7 @@ Model Evaluation (RAGAS)            54%             ✅ Module 7
 MLOps / CI-CD                       49%             ✅ Module 8
 ```
 
----
+
 
 ## 💰 Salary Reality (India 2026)
 
@@ -102,7 +102,7 @@ MLOps / CI-CD                       49%             ✅ Module 8
 
 **Target companies:** Sarvam AI, Krutrim, Postman, Freshworks, Zoho AI, Tata AI, 480+ funded AI startups, Global MNCs with India offices.
 
----
+
 
 ## 🗺️ Complete Curriculum
 
@@ -128,7 +128,7 @@ PORTFOLIO (Weeks 13–16)
   Project 4 → Multi-Agent Business Automation
 ```
 
----
+
 
 ## 📋 Detailed Table of Contents
 
@@ -179,7 +179,7 @@ PORTFOLIO (Weeks 13–16)
 
 </details>
 
----
+
 
 ## 🚀 Quick Start
 
@@ -199,7 +199,7 @@ cp .env.example .env
 open modules/01-what-is-applied-ai/README.md
 ```
 
----
+
 
 ## 🔑 Study Guide
 
@@ -227,7 +227,7 @@ Know Python basics  → Start at Module 3 (Prompt Engineering)
 Have ML experience  → Start at Module 4 (RAG Systems)
 ```
 
----
+
 
 ## 🤝 Contributing
 
@@ -244,13 +244,13 @@ This repository grows stronger with every contribution. You can help by:
 
 Your name and GitHub profile will be added to the Contributors section below.
 
----
+
 
 ## 🌟 Contributors
 
 *Be the first — [submit a Pull Request](https://github.com/sisi-tarak/applied-ai-engineer/pulls)*
 
----
+
 
 ## 📦 Repository Structure
 
@@ -307,7 +307,7 @@ applied-ai-engineer/
     └── (all diagrams)
 ```
 
----
+
 
 ## 📚 More Free Repositories
 
@@ -319,11 +319,11 @@ applied-ai-engineer/
 | [dsa-interview-questions](https://github.com/sisi-tarak/dsa-interview-questions) | ⭐ | 150 DSA questions Python |
 | [applied-ai-engineer](https://github.com/sisi-tarak/applied-ai-engineer) | ⭐ | This repo |
 
----
+
 
 <div align="center">
 
----
+
 
 *"The best time to start was yesterday. The second best time is now."*
 
