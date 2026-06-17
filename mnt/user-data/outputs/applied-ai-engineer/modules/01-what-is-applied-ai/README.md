@@ -36,7 +36,7 @@ THE AI ECOSYSTEM — WHERE YOU FIT:
 └─────────────────────────────────────────────────────────┘
 ```
 
----
+<br/>
 
 ## What Applied AI Engineers Actually Build
 
@@ -121,7 +121,7 @@ REAL EXAMPLES:
   - Video surveillance with AI alerts
 ```
 
----
+<br/>
 
 ## The Three Customization Techniques — Decision Guide
 
@@ -172,7 +172,7 @@ This is the most important diagram in this entire course:
 - Fine-tune only when style, tone, or specialized behavior is needed
 - Use agents when the task requires multiple steps and tools
 
----
+<br/>
 
 ## Day in the Life — Applied AI Engineer
 
@@ -192,7 +192,7 @@ This is the most important diagram in this entire course:
 7:00 PM  → Send update to client with demo video
 ```
 
----
+<br/>
 
 ## Salary & Career Path
 
@@ -225,7 +225,7 @@ COMPANIES HIRING IN INDIA (2026):
   Your own clients as freelancer
 ```
 
----
+<br/>
 
 ## What This Course Will Not Teach
 
@@ -250,7 +250,7 @@ Being honest about scope prevents wasted time:
    Getting hired as an Applied AI Engineer
 ```
 
----
+<br/>
 
 ## Resources for This Module
 
@@ -262,6 +262,6 @@ Being honest about scope prevents wasted time:
 | [State of AI Report 2025 — Air Street](https://www.stateof.ai/) | 📊 Report | 1 hr | Market landscape |
 | [LLM Engineer Roadmap — roadmap.sh](https://roadmap.sh/ai-engineer) | 🗺️ Visual | 10 min | Visual skill map |
 
----
+<br/>
 
 **[← Back to Main](../../README.md) | [Next: Module 2 — Python Setup →](../02-python-for-ai/README.md)**
