@@ -5,7 +5,7 @@
 
 **[← Back to Main](../README.md)**
 
----
+<br/>
 
 ## How Interviews Are Structured
 
@@ -32,7 +32,7 @@ Round 4 — Culture + Leadership (30–45 min)
   → Career goals
 ```
 
----
+<br/>
 
 ## Section 1 — RAG Questions (Most Asked)
 
@@ -41,7 +41,7 @@ Round 4 — Culture + Leadership (30–45 min)
 **Answer:**
 Imagine hiring a smart employee who knows everything in general but doesn't know your company's specific policies. RAG is like giving them a binder with all your company documents to refer to while answering questions. The AI searches the binder, finds the relevant page, reads it, and gives a specific answer — instead of guessing.
 
----
+<br/>
 
 ### Q2: What is the difference between dense and sparse retrieval?
 
@@ -65,7 +65,7 @@ Hybrid search (best of both):
   - Pinecone, Weaviate, OpenSearch all support this
 ```
 
----
+<br/>
 
 ### Q3: What happens when your RAG system retrieves wrong chunks?
 
@@ -76,7 +76,7 @@ This is a precision problem. Solutions in order of priority:
 3. **Add metadata filtering** — filter by document type, date, or section before semantic search
 4. **Query expansion** — generate 3 variants of the query, retrieve for all, deduplicate
 
----
+<br/>
 
 ### Q4: How do you handle the "I don't know" problem in RAG?
 
@@ -86,7 +86,7 @@ The LLM should say "not in documentation" instead of hallucinating. Three approa
 2. **Explicit instruction in system prompt**: "If the answer is not in the context, say exactly: I don't find that in our documentation"
 3. **Faithfulness evaluation**: Run RAGAS faithfulness metric in production; alert when score drops
 
----
+<br/>
 
 ### Q5: Design a RAG system for a 10,000-employee company with 500,000 documents.
 
@@ -127,7 +127,7 @@ ARCHITECTURE:
     → A/B testing for retrieval improvements
 ```
 
----
+<br/>
 
 ## Section 2 — Fine-tuning Questions
 
@@ -143,7 +143,7 @@ I use a decision framework:
 
 Often the answer is **both**: RAG for current information + fine-tuned model for the right style and format.
 
----
+<br/>
 
 ### Q7: What is LoRA and why is it preferred?
 
@@ -159,7 +159,7 @@ Why preferred:
 
 QLoRA adds 4-bit quantization of the base model — same concept, even more memory efficient.
 
----
+<br/>
 
 ### Q8: How many training examples do you need for fine-tuning?
 
@@ -181,7 +181,7 @@ Always:
   - Evaluate on held-out test set before deployment
 ```
 
----
+<br/>
 
 ### Q9: How do you evaluate a fine-tuned model?
 
@@ -193,7 +193,7 @@ Three levels:
 
 I build an eval set from real user queries + expert-verified answers before training starts.
 
----
+<br/>
 
 ## Section 3 — Agent Questions
 
@@ -222,7 +222,7 @@ FINAL ANSWER: Apple stock is currently ₹15,624.97
 
 This is better than a single LLM call because the agent verifies real-time data instead of guessing.
 
----
+<br/>
 
 ### Q11: How do you prevent an agent from running infinitely?
 
@@ -234,7 +234,7 @@ Three safeguards:
 4. **human-in-the-loop**: For destructive actions (deleting files, sending emails), require explicit user confirmation before executing
 5. **action whitelist**: Define exactly which tools the agent can call — no arbitrary code execution
 
----
+<br/>
 
 ### Q12: What is the difference between LangGraph and CrewAI?
 
@@ -259,7 +259,7 @@ Use CrewAI when: Team of agents creates a document/report
 Use LangGraph when: Complex workflow with conditions, retries, human approval
 ```
 
----
+<br/>
 
 ## Section 4 — System Design Questions
 
@@ -296,7 +296,7 @@ METRICS:
    Cost per ticket: target 40% reduction
 ```
 
----
+<br/>
 
 ## Section 5 — Code Questions (Live Coding)
 
@@ -349,7 +349,7 @@ for i, chunk in enumerate(chunks):
     print(f"Chunk {i+1}: '{chunk}'")
 ```
 
----
+<br/>
 
 ### Q15: Debug this RAG system — it always returns wrong answers
 
@@ -410,7 +410,7 @@ Answer:"""
     return llm.invoke(prompt).content
 ```
 
----
+<br/>
 
 ## Section 6 — Behavioral Questions
 
@@ -428,14 +428,14 @@ ACTION:
 RESULT:    Impact — reduction in error rate, recovered users
 ```
 
----
+<br/>
 
 ### Q17: How do you explain AI limitations to a non-technical client?
 
 **Sample answer:**
 "I tell clients that AI is like a very well-read expert who sometimes confabulates — like a doctor who confidently gives a wrong diagnosis. So we always build human review for high-stakes decisions. We also set up monitoring so if the AI starts giving unusual answers, we catch it before users do. The goal isn't to replace human judgment — it's to handle the repetitive 80% so humans can focus on the nuanced 20%."
 
----
+<br/>
 
 ## Quick Reference — Common Interview Topics
 
@@ -455,7 +455,7 @@ FastAPI deployment        Build a basic endpoint  Module 8
 Docker containerization  Dockerfile basics       Module 8
 ```
 
----
+<br/>
 
 ## 30-Day Interview Prep Plan
 
@@ -484,6 +484,6 @@ WEEK 4 — Mock Interviews
   Day 29-30: Follow up, prep for specific companies
 ```
 
----
+<br/>
 
 **[← Back to Main](../README.md)**
